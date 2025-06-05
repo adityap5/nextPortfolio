@@ -53,8 +53,17 @@
   * {
     @apply border-border transition-colors duration-200;
   }
-  body {
+  html, body {
     @apply bg-background text-foreground;
+    height: 100%;
+    /* Temporarily disables all scrolling (for testing) */
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE 10+ */
+  }
+
+  html::-webkit-scrollbar,
+  body::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera */
   }
 }
 
@@ -109,3 +118,4 @@ html {
 .dark .text-slate-400 {
   color: rgb(148 163 184);
 }
+
