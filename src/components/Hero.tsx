@@ -64,7 +64,7 @@ const Hero = () => {
               className="group bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white shadow-lg"
             >
               <a
-                href="https://drive.google.com/file/d/1HHIa8Xw9rDAN0MKGO6rBONHj67DWUJzd/view?usp=sharing"
+                href="https://drive.google.com/file/d/1BhQHRES4tylMjzWGSMDKWxhMPmd62ozX/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center"
@@ -85,7 +85,7 @@ const Hero = () => {
 
           <motion.div variants={itemVariants} className="flex items-center space-x-6 pt-4">
             <div className="text-center">
-              <div className="text-2xl font-bold text-slate-900 dark:text-slate-100">2+</div>
+              <div className="text-2xl font-bold text-slate-900 dark:text-slate-100">1+</div>
               <div className="text-sm text-slate-600 dark:text-slate-400">Years Experience</div>
             </div>
             <div className="w-px h-12 bg-slate-300 dark:bg-slate-600" />
@@ -128,7 +128,7 @@ const Hero = () => {
                 transition={{ duration: 4, repeat: Number.POSITIVE_INFINITY }}
                 className="absolute -top-4 -right-4 bg-blue-500 text-white p-3 rounded-xl shadow-lg"
               >
-                <span className="text-sm font-semibold">React</span>
+                <span className="text-sm font-semibold">ReactJS</span>
               </motion.div>
 
               <motion.div
@@ -136,7 +136,7 @@ const Hero = () => {
                 transition={{ duration: 3, repeat: Number.POSITIVE_INFINITY }}
                 className="absolute -bottom-4 -left-4 bg-purple-500 text-white p-3 rounded-xl shadow-lg"
               >
-                <span className="text-sm font-semibold">Node.js</span>
+                <span className="text-sm font-semibold">NodeJS</span>
               </motion.div>
             </div>
           </div>

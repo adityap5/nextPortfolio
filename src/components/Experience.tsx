@@ -35,7 +35,7 @@ const Experience = () => {
       description:
         "Built reusable frontend components with ReactJS & Tailwind CSS, cutting dev time by 30% across 3+ projects.,Streamlined application performance by writing maintainable code, reducing load time by 15%.",
       technologies: ["React","NodeJS", "MongoDB", "ExpressJS", "Tailwind CSS","HTML", "CSS", "JavaScript", "MySQL"],
-      type: "Full-time",
+      type: "Internship",
     },
   ]
 
