@@ -8,44 +8,34 @@ import { Calendar, MapPin, Building } from "lucide-react"
 const Experience = () => {
   const experiences = [
     {
-      year: "2023 - Present",
-      role: "Senior Full Stack Developer",
-      company: "Tech Solutions Inc.",
-      location: "Remote",
+      year: "Mar 2025 - Present",
+      role: "Full Stack Developer",
+      company: "Astron Financial Advisors",
+      location: "Delhi, In",
       description:
-        "Led development of multiple web applications using React, Node.js, and MongoDB. Implemented CI/CD pipelines and mentored junior developers.",
-      technologies: ["React", "Node.js", "MongoDB", "AWS", "Docker", "TypeScript"],
-      type: "Full-time",
+        "Led development of 5+ web applications using NextJS, React, NodeJS, and MongoDB. Developed multiple Softwares and mentored junior developers.",
+      technologies: ["NestJS", "React", "NodeJS", "MongoDB","ExpressJS", "AWS", "TypeScript"],
+      type: "Internship",
     },
     {
-      year: "2022 - 2023",
-      role: "Frontend Developer",
-      company: "Digital Agency Pro",
-      location: "New York, NY",
+      year: "Jan 2025 - Mar 2025",
+      role: "Software Developer",
+      company: "Design Innovation Center",
+      location: "Chandigarh, In",
       description:
         "Developed responsive web applications and collaborated with design teams to create pixel-perfect user interfaces.",
-      technologies: ["React", "Next.js", "Tailwind CSS", "JavaScript", "Figma"],
-      type: "Full-time",
-    },
-    {
-      year: "2021 - 2022",
-      role: "Junior Web Developer",
-      company: "StartUp Ventures",
-      location: "San Francisco, CA",
-      description:
-        "Built and maintained company websites, implemented new features, and optimized application performance.",
-      technologies: ["HTML", "CSS", "JavaScript", "PHP", "MySQL", "WordPress"],
-      type: "Full-time",
-    },
-    {
-      year: "2021",
-      role: "Web Development Intern",
-      company: "Creative Studios",
-      location: "Los Angeles, CA",
-      description:
-        "Assisted in developing client websites and learned modern web development practices under senior developer guidance.",
-      technologies: ["HTML", "CSS", "JavaScript", "Bootstrap", "Git"],
+      technologies: ["React", "Next.js","NodeJS", "MongoDB", "ExpressJS", "Tailwind CSS", "JavaScript", "Figma"],
       type: "Internship",
+    },
+    {
+      year: "Jun 2024 - Jul 2024",
+      role: "Frontend Developer",
+      company: "GrapplTech",
+      location: "Remote",
+      description:
+        "Built reusable frontend components with ReactJS & Tailwind CSS, cutting dev time by 30% across 3+ projects.,Streamlined application performance by writing maintainable code, reducing load time by 15%.",
+      technologies: ["React","NodeJS", "MongoDB", "ExpressJS", "Tailwind CSS","HTML", "CSS", "JavaScript", "MySQL"],
+      type: "Full-time",
     },
   ]
 

@@ -8,42 +8,42 @@ import { GraduationCap, Calendar, MapPin, Award } from "lucide-react"
 const Education = () => {
   const education = [
     {
-      year: "2019 - 2023",
-      degree: "Bachelor of Technology in Computer Science",
-      institution: "University of Technology",
-      location: "New York, NY",
+      year: "2021 - 2025",
+      degree: "Bachelor of Engineering in Electronics and Communication Engineering",
+      institution: "University Institute of Engineering & Technology, Chandigarh, Panjab University",
+      location: "Chandigarh, In",
       gpa: "3.8/4.0",
-      achievements: ["Dean's List", "Programming Club President", "Hackathon Winner"],
-      coursework: ["Data Structures", "Algorithms", "Web Development", "Database Systems", "Software Engineering"],
+      achievements: ["Photography club's Social Media Head", "Alumni Cell Member"],
+      coursework: ["Data Structures", "Algorithms", "Database Management System", "Object-Oriented Programming","Computer Networks"],
     },
     {
       year: "2017 - 2019",
       degree: "Higher Secondary Certificate",
-      institution: "Central High School",
-      location: "California, CA",
+      institution: "Bhartiya VidyaPeeth Bal Bharti",
+      location: "Agra, UP",
       gpa: "95%",
-      achievements: ["Valedictorian", "Science Olympiad Gold Medal", "Mathematics Excellence Award"],
-      coursework: ["Advanced Mathematics", "Physics", "Chemistry", "Computer Science"],
+      achievements: ["Valedictorian", "Basketball Prodigy"],
+      coursework: ["Advanced Mathematics", "Physics", "Chemistry", "Computer Science", "Physical Education"],
     },
   ]
 
   const certifications = [
     {
-      title: "AWS Certified Developer",
-      issuer: "Amazon Web Services",
-      year: "2023",
-      credentialId: "AWS-DEV-2023-001",
+      title: "NodeJS Developer",
+      issuer: "Lets Upgrade",
+      year: "2024",
+      credentialId: "LUENJSFEB124700",
     },
     {
       title: "React Developer Certification",
-      issuer: "Meta",
-      year: "2022",
-      credentialId: "META-REACT-2022-456",
+      issuer: "Simplilearn",
+      year: "2023",
+      credentialId: "5024567",
     },
     {
       title: "Full Stack Web Development",
       issuer: "freeCodeCamp",
-      year: "2021",
+      year: "2023",
       credentialId: "FCC-FULLSTACK-2021-789",
     },
   ]
