@@ -10,9 +10,9 @@ import { Mail, Phone, MapPin, Send, MessageCircle, Calendar, Clock } from "lucid
 
 const Contact = () => {
   const contactInfo = {
-    email: "aditya.pippal@example.com",
-    phone: "+1 (555) 123-4567",
-    address: "San Francisco, CA, USA",
+    email: "aditya29pippal@gmail.com",
+    phone: "+91 8859839210",
+    address: "New Delhi, Delhi, India",
     availability: "Available for freelance work",
   }
 
@@ -35,7 +35,7 @@ const Contact = () => {
       icon: MapPin,
       title: "Location",
       value: contactInfo.address,
-      description: "Based in San Francisco",
+      description: "Based in India",
       color: "from-purple-500 to-violet-500",
     },
   ]
@@ -210,7 +210,7 @@ const Contact = () => {
           className="text-center pt-12 border-t border-slate-200 dark:border-slate-700"
         >
           <p className="text-slate-600 dark:text-slate-400">
-            © 2024 Aditya Pippal. Built with Next.js and Tailwind CSS.
+            © {new Date().getFullYear()} Aditya Pippal. Built with Next.js and Tailwind CSS.
           </p>
         </motion.div>
       </div>

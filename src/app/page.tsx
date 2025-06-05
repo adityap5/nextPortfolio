@@ -14,7 +14,6 @@ export default function App() {
   const [isDark, setIsDark] = useState(false)
 
   useEffect(() => {
-    // Check for saved theme preference or default to system preference
     const savedTheme = localStorage.getItem("theme")
     const systemPrefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches
 

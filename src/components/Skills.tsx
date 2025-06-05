@@ -17,13 +17,13 @@ const Skills = () => {
       icon: Server,
       title: "Backend Development",
       color: "from-green-500 to-emerald-500",
-      skills: ["Node.js", "Express.js", "Python", "REST APIs", "GraphQL", "Microservices"],
+      skills: ["Node.js", "Express.js", "REST APIs", "GraphQL", "Microservices"],
     },
     {
       icon: Database,
       title: "Database & Storage",
       color: "from-purple-500 to-violet-500",
-      skills: ["MongoDB", "MySQL", "PostgreSQL", "Redis", "Firebase", "Supabase"],
+      skills: ["MongoDB", "MySQL", "PostgreSQL", "Supabase"],
     },
     {
       icon: Cloud,
@@ -35,13 +35,13 @@ const Skills = () => {
       icon: Smartphone,
       title: "Mobile Development",
       color: "from-pink-500 to-rose-500",
-      skills: ["React Native", "Flutter", "Progressive Web Apps", "Responsive Design"],
+      skills: ["Progressive Web Apps", "Responsive Design"],
     },
     {
-      icon: Palette,
-      title: "Design & Tools",
+      icon: Code,
+      title: "Coding Languages",
       color: "from-indigo-500 to-blue-500",
-      skills: ["Figma", "Adobe XD", "Photoshop", "UI/UX Design", "Prototyping"],
+      skills: ["C", "C++", "JavaScript"],
     },
   ]
 
@@ -116,7 +116,7 @@ const Skills = () => {
             {[
               { skill: "React/Next.js", level: 90 },
               { skill: "Node.js", level: 85 },
-              { skill: "TypeScript", level: 80 },
+              { skill: "C++", level: 75 },
               { skill: "MongoDB", level: 85 },
             ].map((item) => (
               <div key={item.skill} className="space-y-2">
